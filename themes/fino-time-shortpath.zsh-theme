@@ -27,7 +27,6 @@ function box_name {
 
 
 local rvm_ruby='‹$(rvm-prompt i v g)›%{$reset_color%}'
-#local current_dir='${PWD/#$HOME/~}'
 local current_dir='%02~'
 local git_info='$(git_prompt_info)'
 
